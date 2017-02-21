@@ -9,7 +9,10 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">{{site.title}}</a>
+                <a class="navbar-brand page-scroll logo" href="#page-top">
+                  <img src="{{site.baseurl}}/img/GIMP/Logo_extended_white.png" alt="Brand" height="64px">
+                </a>
+                <!--{{site.title}}-->
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -21,17 +24,20 @@
                     <li>
                         <a class="page-scroll" href="#services">Services</a>
                     </li>
-                    <li>
+                    <!-- <li>
                         <a class="page-scroll" href="#portfolio">Portfolio</a>
-                    </li>
+                    </li> -->
                     <li>
                         <a class="page-scroll" href="#about">About</a>
                     </li>
-                    <li>
+                    <!-- <li>
                         <a class="page-scroll" href="#team">Team</a>
-                    </li>
+                    </li> -->
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                    <li>
+                        <a class="languages-1" href="">EN</a><a class="languages-2" href="">FR</a>
                     </li>
                 </ul>
             </div>
@@ -44,9 +50,9 @@
     <header>
         <div class="container">
             <div class="intro-text">
-                <div class="intro-lead-in">Welcome To Our Studio!</div>
-                <div class="intro-heading">It's Nice To Meet You</div>
-                <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
+                <!-- <div class="intro-lead-in">Different languages</div> -->
+                <div class="intro-heading">Different talks<br/>Same people</div>
+                <a href="#contact" class="page-scroll btn btn-xl">Free Quote</a>
             </div>
         </div>
     </header>
@@ -55,4 +61,3 @@
           {% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
         {% endfor %}
  -->
-

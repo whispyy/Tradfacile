@@ -1,3 +1,17 @@
+/* JF CSS */
+.logo{
+  margin-top: -20px;
+}
+
+.languages-1{
+  margin-top: -12px;
+
+}
+.languages-2{
+  margin-top: -35px;
+  margin-bottom: -12px;
+}
+
 /*!
  * Start Bootstrap - Agency Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
@@ -268,6 +282,7 @@ fieldset[disabled] .btn-xl.active {
 header {
     text-align: center;
     color: #fff;
+    filter: brightness(65%);
     background-attachment: scroll;
     background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
     background-position: center center;
