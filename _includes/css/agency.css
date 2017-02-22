@@ -1,8 +1,13 @@
-/* JF CSS */
+/* 
+ * JF CSS 
+ */
+
+/*topbar logo adjustment*/ 
 .logo{
   margin-top: -20px;
 }
 
+/*topbar switch language adjustment*/
 .languages-1{
   margin-top: -12px;
 
@@ -10,6 +15,10 @@
 .languages-2{
   margin-top: -35px;
   margin-bottom: -12px;
+}
+
+#quoteForm{
+    /*display: none;*/
 }
 
 /*!

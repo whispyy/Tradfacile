@@ -35,3 +35,14 @@ $('div.modal').on('show.bs.modal', function() {
 		}
 	}
 });
+
+$('#type1').click(function(){
+    $('#contactForm').hide();
+    $('#quoteForm').show();
+
+});
+
+$('#type2').click(function(){
+    $('#quoteForm').hide();
+    $('#contactForm').show();
+});
