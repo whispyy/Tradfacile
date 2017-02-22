@@ -37,12 +37,11 @@ $('div.modal').on('show.bs.modal', function() {
 });
 
 $('#type1').click(function(){
-    $('#contactForm').hide();
-    $('#quoteForm').show();
-
+    $('#quoteForm').hide();
+    $('#contactForm').show();
 });
 
 $('#type2').click(function(){
-    $('#quoteForm').hide();
-    $('#contactForm').show();
+    $('#contactForm').hide();
+    $('#quoteForm').show();
 });

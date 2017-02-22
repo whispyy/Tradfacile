@@ -26,7 +26,7 @@
 }
 
 #quoteForm{
-    /*display: none;*/
+    display: none;
 }
 
 /*!
@@ -301,7 +301,7 @@ header {
     color: #fff;
     filter: brightness(65%);
     background-attachment: scroll;
-    background-image: url('/tradfacile/img/header-bg.jpg');
+    background-image: url('/Tradfacile/img/header-bg.jpg');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -690,7 +690,7 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url('/tradfacile/img/map-image.png');
+    background-image: url('/Tradfacile/img/map-image.png');
     background-position: center;
     background-repeat: no-repeat;
 }
