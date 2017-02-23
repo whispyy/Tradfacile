@@ -9,9 +9,9 @@ description: "Tradfacile, traduction et interprétariat."
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
+- name: Nos Engagements
   pic: 1
-  position: Lead Designer
+  position: <ul style="text-align:justify;"><li>Fournir une prestation de haute qualité</li><li>Accompagnement par nos équipes</li><li>Respect des délais</li></ul>
   social:
     - title: twitter
       url: #
@@ -20,9 +20,9 @@ people:
     - title: stack-overflow
       url: #
 
-- name: Larry Parker
+- name: Notre différence
   pic: 2
-  position: Lead Marketer
+  position: <ul style="text-align:justify;"><li>Des étudiants bilingues et trilingues</li><li>Des solutions et services adaptés</li><li>Collaboration avec des experts</li></ul>
   social:
     - title: twitter
       url: #
@@ -31,9 +31,9 @@ people:
     - title: linkedin
       url: #
 
-- name: Diana Petersen
+- name: Nos valeurs
   pic: 3
-  position: Lead Developer
+  position: <ul style="text-align:justify;"><li>Assurer la confidentialité de vos documents</li><li>Apporter notre valeur ajoutée</li><li>Proposer les meilleurs tarifs</li></ul>
   social:
     - title: twitter
       url: #
