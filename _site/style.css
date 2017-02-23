@@ -302,9 +302,10 @@ fieldset[disabled] .btn-xl.active {
 header {
     text-align: center;
     color: #fff;
-    filter: brightness(65%);
+    position: relative;
+    /*filter: brightness(65%);*/
     background-attachment: scroll;
-    background-image: url('/Tradfacile/img/header-bg.jpg');
+    background-image: url('/Tradfacile/img/header-40pbg.jpg');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
