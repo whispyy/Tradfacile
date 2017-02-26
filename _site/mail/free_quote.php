@@ -1,6 +1,7 @@
 <?PHP
     $name = $_POST['name'];
     $email_address = $_POST['email'];
+    $type = $_POST['type'];
     //$phone = $_POST['phone'];
     $msg = $_POST['message'];
     $file = $path . "/" . $filename;
@@ -45,8 +46,10 @@
     //SEND Mail
     if (mail($mailto, $subject, $body, $headers)) {
         echo "mail send ... OK"; // or use booleans here
+        return true;
     } else {
         echo "mail send ... ERROR!";
         print_r( error_get_last() );
+        return false;
     }
 

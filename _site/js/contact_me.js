@@ -2,7 +2,7 @@ $(function() {
     //client mail
     emailjs.init("user_9ITvEcYkSzrAEnzMLV4X6");
     
-    $("input,textarea").jqBootstrapValidation({
+    $("#contactForm input,textarea").jqBootstrapValidation({
         preventSubmit: true,
         submitError: function($form, event, errors) {
             // additional error messages or events
