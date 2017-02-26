@@ -401,8 +401,14 @@
                                     <input type="tel" class="form-control" placeholder="Translation Language" id="language" required data-validation-required-message="In which language we must translate the document">
                                     <p class="help-block text-danger"></p>
                                 </div>
+                            </div>
+                            <div class="col-md-6">
                                 <div class="control-group form-group">
-                                    <label for="type">Document Type:</label>
+                                    <textarea class="form-control" placeholder="Your Message *" rows="3" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="control-group form-group">
+                                    <label for="type" class="text-white">Document Type:</label>
                                     <select class="form-control" id="type">
                                       <option>PDF, Word, Notes, text</option>
                                       <option>Excel</option>
@@ -413,23 +419,14 @@
                                     </select>
                                 </div>
                             </div>
-                            <div class="col-md-6">
-                                <div class="control-group form-group text-center">
+                            <div class="clearfix"></div>
+                            <div class="col-lg-12 text-center">
+                                 <div class="control-group form-group text-center">
                                     <label class="custom-file">
                                       <input type="file" id="file" class="custom-file-input form-control">
                                       <span class="custom-file-control"></span>
                                     </label>
                                 </div>
-
-                            </div>
-                            <div class="col-md-6">
-                                <div class="control-group form-group">
-                                    <textarea class="form-control" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message."></textarea>
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="clearfix"></div>
-                            <div class="col-lg-12 text-center">
                                 <div id="success"></div>
                                 <button type="submit" class="btn btn-xl">Send</button>
                             </div>
@@ -453,9 +450,6 @@
                         </li>
                         
                         <li><a href="http://github.com/whispyy"><i class="fa fa-github"></i></a>
-                        </li>
-                        
-                        <li><a href="contact@tradfacile.com"><i class="fa fa-mail"></i></a>
                         </li>
                         
                     </ul>

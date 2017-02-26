@@ -32,6 +32,10 @@
     display: none;
 }
 
+textarea.form-control {
+  height: 100%;
+}
+
 /*!
  * Start Bootstrap - Agency Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.

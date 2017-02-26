@@ -38,10 +38,10 @@ $('div.modal').on('show.bs.modal', function() {
 
 $('#type1').click(function(){
     $('#quoteForm').hide();
-    $('#contactForm').slideDown();
+    $('#contactForm').slideToggle("slow");
 });
 
 $('#type2').click(function(){
     $('#contactForm').hide();
-    $('#quoteForm').slideDown();
+    $('#quoteForm').slideToggle("slow");
 });
