@@ -2,12 +2,14 @@ $(function() {
     //client mail
     emailjs.init("user_9ITvEcYkSzrAEnzMLV4X6");
     
-    $("#contactForm input,textarea").jqBootstrapValidation({
+    $("form#contactForm input,textarea").jqBootstrapValidation({
         preventSubmit: true,
         submitError: function($form, event, errors) {
             // additional error messages or events
+            console.log('contactForm error');
         },
         submitSuccess: function($form, event) {
+            console.log('contactForm success');
             event.preventDefault(); // prevent default submit behaviour
             // get values from FORM
             var name = $("input#name").val();
