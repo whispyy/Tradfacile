@@ -4,10 +4,13 @@ if(!filter_var($_POST['email'],FILTER_VALIDATE_EMAIL))
   echo "No arguments Provided!";
   return false;
 }
+ini_set("SMTP", "auth.smtp.1and1.fr");
+ini_set("sendmail_from", "contact@tradfacile.com");
+
 $name = $_POST['name'];
 $email_address = $_POST['email'];
 $type = $_POST['type'];
-//$phone = $_POST['phone'];
+$phone = $_POST['phone'];
 $msg = $_POST['message'];
 $file = $path . "/" . $filename;
 $filename = 'myfile';
@@ -28,9 +31,10 @@ $separator = md5(time());
 $eol = "\r\n";
 
 // main header (multipart mandatory)
-$headers = "From: name <test@test.com>" . $eol;
+$headers = "From: Tradfacile <contact@tradfacile.com>" . $eol;
 $headers .= "MIME-Version: 1.0" . $eol;
 $headers .= "Content-Type: multipart/mixed; boundary=\"" . $separator . "\"" . $eol;
+$header.= "X-Priority: 1" . $eol;
 $headers .= "Content-Transfer-Encoding: 7bit" . $eol;
 $headers .= "This is a MIME encoded message." . $eol;
 

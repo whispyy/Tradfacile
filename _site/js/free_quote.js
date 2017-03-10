@@ -1,5 +1,5 @@
 $(function() {
-    $("form#quoteForm input,textarea").jqBootstrapValidation({
+    $('form[name="sentQuote"] input,textarea').jqBootstrapValidation({
         preventSubmit: true,
         submitError: function($form, event, errors) {
             // additional error messages or events
@@ -9,10 +9,10 @@ $(function() {
             console.log('quoteForm success');
             event.preventDefault(); // prevent default submit behaviour
             // get values from FORM
-            var name = $("input#name").val();
-            var email = $("input#email").val();
-            var phone = $("input#phone").val();
-            var message = $("textarea#message").val();
+            var name = $("input#name0").val();
+            var email = $("input#email0").val();
+            var phone = $("input#phone0").val();
+            var message = $("textarea#message0").val();
             var type = $("select#type").val();
             var firstName = name; // For Success/Failure Message
             // Check for white space in name for Success/Fail message
